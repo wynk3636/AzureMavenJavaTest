@@ -29,4 +29,4 @@ jobs:
         app-name: 'mavenjsptest'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_7482429e9a9544e4be4bc8c10a3162d5 }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: '${{ github.workspace }}/target/AzureMavenJavaTest.war'
