@@ -29,7 +29,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>AzureMavenJavaTest</finalName>
+    <finalName>ROOT</finalName> <!-- Azure default root pass -->
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -39,6 +39,7 @@
           <packagingExcludes>WEB-INF/lib/javax.servlet-api-3.0.1.jar</packagingExcludes>
         </configuration>
       </plugin>
+      <!-- 
       <plugin> 
         <groupId>com.microsoft.azure</groupId>  
         <artifactId>azure-webapp-maven-plugin</artifactId>  
@@ -64,6 +65,7 @@
                 </deployment>
             </configuration>  
       </plugin> 
+       -->
     </plugins>
   </build>
 </project>
